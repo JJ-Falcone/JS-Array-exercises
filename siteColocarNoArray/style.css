@@ -1,0 +1,43 @@
+body{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+}
+
+h1{
+    font-size: 70px;
+    color: rgb(62, 141, 115);
+    text-shadow: 2px 2px  rgb(0, 0, 0);
+}
+
+.controles {
+    margin: 70px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(62, 141, 115);
+    width: 33%;
+    height: 10%;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(60, 60, 60, 0.786);
+}   
+
+.botao{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.divDisplay{
+    width: 33%;
+}
+
+.areaDisplay{
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+}
